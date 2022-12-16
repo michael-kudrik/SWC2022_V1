@@ -1,11 +1,16 @@
 @charset "UTF-8";
+.type1 {
+  color: white;
+  margin-top: 10vw;
+}
 .type1::before {
   content: "​";
-  content: "​"/"Welcome to the WVHS Computer Science Department!";
-  alt: "Welcome to the WVHS Computer Science Department!";
+  content: "​"/"Welcome to the WVHS \a Computer Science Department!";
+  alt: "Welcome to the WVHS \a Computer Science Department!";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 11.64s linear 1s infinite forwards;
+  -webkit-animation: typed-0 11.82s linear 1s infinite forwards;
+          animation: typed-0 11.82s linear 1s infinite forwards;
 }
 .type1::after {
   content: "​";
@@ -14,488 +19,996 @@
   padding-right: 0.1ch;
   border-right: 1ch solid currentColor;
   white-space: nowrap;
-  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+  -webkit-animation: typed-0-caret 0.75s linear 1s infinite forwards;
+          animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@-webkit-keyframes typed-0 {
+  0%, 0.8450236887% {
+    content: "​W";
+    content: "​W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  0.8460236887%, 1.6910473773% {
+    content: "​We";
+    content: "​We"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  1.6920473773%, 2.537071066% {
+    content: "​Wel";
+    content: "​Wel"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  2.538071066%, 3.3830947547% {
+    content: "​Welc";
+    content: "​Welc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  3.3840947547%, 4.2291184433% {
+    content: "​Welco";
+    content: "​Welco"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  4.2301184433%, 5.075142132% {
+    content: "​Welcom";
+    content: "​Welcom"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  5.076142132%, 5.9211658206% {
+    content: "​Welcome";
+    content: "​Welcome"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  5.9221658206%, 6.7671895093% {
+    content: "​Welcome ";
+    content: "​Welcome "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  6.7681895093%, 7.613213198% {
+    content: "​Welcome t";
+    content: "​Welcome t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  7.614213198%, 8.4592368866% {
+    content: "​Welcome to";
+    content: "​Welcome to"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  8.4602368866%, 9.3052605753% {
+    content: "​Welcome to ";
+    content: "​Welcome to "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  9.3062605753%, 10.151284264% {
+    content: "​Welcome to t";
+    content: "​Welcome to t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  10.152284264%, 10.9973079526% {
+    content: "​Welcome to th";
+    content: "​Welcome to th"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  10.9983079526%, 11.8433316413% {
+    content: "​Welcome to the";
+    content: "​Welcome to the"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  11.8443316413%, 12.6893553299% {
+    content: "​Welcome to the ";
+    content: "​Welcome to the "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  12.6903553299%, 13.5353790186% {
+    content: "​Welcome to the W";
+    content: "​Welcome to the W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  13.5363790186%, 14.3814027073% {
+    content: "​Welcome to the WV";
+    content: "​Welcome to the WV"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  14.3824027073%, 15.2274263959% {
+    content: "​Welcome to the WVH";
+    content: "​Welcome to the WVH"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  15.2284263959%, 16.0734500846% {
+    content: "​Welcome to the WVHS";
+    content: "​Welcome to the WVHS"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  16.0744500846%, 16.9194737733% {
+    content: "​Welcome to the WVHS ";
+    content: "​Welcome to the WVHS "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  16.9204737733%, 17.7654974619% {
+    content: "​Welcome to the WVHS \a";
+    content: "​Welcome to the WVHS \a"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  17.7664974619%, 18.6115211506% {
+    content: "​Welcome to the WVHS \a C";
+    content: "​Welcome to the WVHS \a C"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  18.6125211506%, 19.4575448393% {
+    content: "​Welcome to the WVHS \a Co";
+    content: "​Welcome to the WVHS \a Co"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  19.4585448393%, 20.3035685279% {
+    content: "​Welcome to the WVHS \a Com";
+    content: "​Welcome to the WVHS \a Com"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  20.3045685279%, 21.1495922166% {
+    content: "​Welcome to the WVHS \a Comp";
+    content: "​Welcome to the WVHS \a Comp"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  21.1505922166%, 21.9956159052% {
+    content: "​Welcome to the WVHS \a Compu";
+    content: "​Welcome to the WVHS \a Compu"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  21.9966159052%, 22.8416395939% {
+    content: "​Welcome to the WVHS \a Comput";
+    content: "​Welcome to the WVHS \a Comput"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  22.8426395939%, 23.6876632826% {
+    content: "​Welcome to the WVHS \a Compute";
+    content: "​Welcome to the WVHS \a Compute"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  23.6886632826%, 24.5336869712% {
+    content: "​Welcome to the WVHS \a Computer";
+    content: "​Welcome to the WVHS \a Computer"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  24.5346869712%, 25.3797106599% {
+    content: "​Welcome to the WVHS \a Computer ";
+    content: "​Welcome to the WVHS \a Computer "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  25.3807106599%, 26.2257343486% {
+    content: "​Welcome to the WVHS \a Computer S";
+    content: "​Welcome to the WVHS \a Computer S"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  26.2267343486%, 27.0717580372% {
+    content: "​Welcome to the WVHS \a Computer Sc";
+    content: "​Welcome to the WVHS \a Computer Sc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  27.0727580372%, 27.9177817259% {
+    content: "​Welcome to the WVHS \a Computer Sci";
+    content: "​Welcome to the WVHS \a Computer Sci"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  27.9187817259%, 28.7638054146% {
+    content: "​Welcome to the WVHS \a Computer Scie";
+    content: "​Welcome to the WVHS \a Computer Scie"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  28.7648054146%, 29.6098291032% {
+    content: "​Welcome to the WVHS \a Computer Scien";
+    content: "​Welcome to the WVHS \a Computer Scien"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  29.6108291032%, 30.4558527919% {
+    content: "​Welcome to the WVHS \a Computer Scienc";
+    content: "​Welcome to the WVHS \a Computer Scienc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  30.4568527919%, 31.3018764805% {
+    content: "​Welcome to the WVHS \a Computer Science";
+    content: "​Welcome to the WVHS \a Computer Science"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  31.3028764805%, 32.1479001692% {
+    content: "​Welcome to the WVHS \a Computer Science ";
+    content: "​Welcome to the WVHS \a Computer Science "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  32.1489001692%, 32.9939238579% {
+    content: "​Welcome to the WVHS \a Computer Science D";
+    content: "​Welcome to the WVHS \a Computer Science D"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  32.9949238579%, 33.8399475465% {
+    content: "​Welcome to the WVHS \a Computer Science De";
+    content: "​Welcome to the WVHS \a Computer Science De"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  33.8409475465%, 34.6859712352% {
+    content: "​Welcome to the WVHS \a Computer Science Dep";
+    content: "​Welcome to the WVHS \a Computer Science Dep"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  34.6869712352%, 35.5319949239% {
+    content: "​Welcome to the WVHS \a Computer Science Depa";
+    content: "​Welcome to the WVHS \a Computer Science Depa"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  35.5329949239%, 36.3780186125% {
+    content: "​Welcome to the WVHS \a Computer Science Depar";
+    content: "​Welcome to the WVHS \a Computer Science Depar"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  36.3790186125%, 37.2240423012% {
+    content: "​Welcome to the WVHS \a Computer Science Depart";
+    content: "​Welcome to the WVHS \a Computer Science Depart"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  37.2250423012%, 38.0700659898% {
+    content: "​Welcome to the WVHS \a Computer Science Departm";
+    content: "​Welcome to the WVHS \a Computer Science Departm"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  38.0710659898%, 38.9160896785% {
+    content: "​Welcome to the WVHS \a Computer Science Departme";
+    content: "​Welcome to the WVHS \a Computer Science Departme"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  38.9170896785%, 39.7621133672% {
+    content: "​Welcome to the WVHS \a Computer Science Departmen";
+    content: "​Welcome to the WVHS \a Computer Science Departmen"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  39.7631133672%, 40.6081370558% {
+    content: "​Welcome to the WVHS \a Computer Science Department";
+    content: "​Welcome to the WVHS \a Computer Science Department"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  40.6091370558%, 59.0514534687% {
+    content: "​Welcome to the WVHS \a Computer Science Department!";
+    content: "​Welcome to the WVHS \a Computer Science Department!"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  59.0524534687%, 59.7282724196% {
+    content: "​Welcome to the WVHS \a Computer Science Department";
+    content: "​Welcome to the WVHS \a Computer Science Department"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  59.7292724196%, 60.4050913706% {
+    content: "​Welcome to the WVHS \a Computer Science Departmen";
+    content: "​Welcome to the WVHS \a Computer Science Departmen"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  60.4060913706%, 61.0819103215% {
+    content: "​Welcome to the WVHS \a Computer Science Departme";
+    content: "​Welcome to the WVHS \a Computer Science Departme"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  61.0829103215%, 61.7587292724% {
+    content: "​Welcome to the WVHS \a Computer Science Departm";
+    content: "​Welcome to the WVHS \a Computer Science Departm"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  61.7597292724%, 62.4355482234% {
+    content: "​Welcome to the WVHS \a Computer Science Depart";
+    content: "​Welcome to the WVHS \a Computer Science Depart"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  62.4365482234%, 63.1123671743% {
+    content: "​Welcome to the WVHS \a Computer Science Depar";
+    content: "​Welcome to the WVHS \a Computer Science Depar"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  63.1133671743%, 63.7891861252% {
+    content: "​Welcome to the WVHS \a Computer Science Depa";
+    content: "​Welcome to the WVHS \a Computer Science Depa"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  63.7901861252%, 64.4660050761% {
+    content: "​Welcome to the WVHS \a Computer Science Dep";
+    content: "​Welcome to the WVHS \a Computer Science Dep"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  64.4670050761%, 65.1428240271% {
+    content: "​Welcome to the WVHS \a Computer Science De";
+    content: "​Welcome to the WVHS \a Computer Science De"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  65.1438240271%, 65.819642978% {
+    content: "​Welcome to the WVHS \a Computer Science D";
+    content: "​Welcome to the WVHS \a Computer Science D"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  65.820642978%, 66.4964619289% {
+    content: "​Welcome to the WVHS \a Computer Science ";
+    content: "​Welcome to the WVHS \a Computer Science "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  66.4974619289%, 67.1732808799% {
+    content: "​Welcome to the WVHS \a Computer Science";
+    content: "​Welcome to the WVHS \a Computer Science"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  67.1742808799%, 67.8500998308% {
+    content: "​Welcome to the WVHS \a Computer Scienc";
+    content: "​Welcome to the WVHS \a Computer Scienc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  67.8510998308%, 68.5269187817% {
+    content: "​Welcome to the WVHS \a Computer Scien";
+    content: "​Welcome to the WVHS \a Computer Scien"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  68.5279187817%, 69.2037377327% {
+    content: "​Welcome to the WVHS \a Computer Scie";
+    content: "​Welcome to the WVHS \a Computer Scie"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  69.2047377327%, 69.8805566836% {
+    content: "​Welcome to the WVHS \a Computer Sci";
+    content: "​Welcome to the WVHS \a Computer Sci"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  69.8815566836%, 70.5573756345% {
+    content: "​Welcome to the WVHS \a Computer Sc";
+    content: "​Welcome to the WVHS \a Computer Sc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  70.5583756345%, 71.2341945854% {
+    content: "​Welcome to the WVHS \a Computer S";
+    content: "​Welcome to the WVHS \a Computer S"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  71.2351945854%, 71.9110135364% {
+    content: "​Welcome to the WVHS \a Computer ";
+    content: "​Welcome to the WVHS \a Computer "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  71.9120135364%, 72.5878324873% {
+    content: "​Welcome to the WVHS \a Computer";
+    content: "​Welcome to the WVHS \a Computer"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  72.5888324873%, 73.2646514382% {
+    content: "​Welcome to the WVHS \a Compute";
+    content: "​Welcome to the WVHS \a Compute"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  73.2656514382%, 73.9414703892% {
+    content: "​Welcome to the WVHS \a Comput";
+    content: "​Welcome to the WVHS \a Comput"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  73.9424703892%, 74.6182893401% {
+    content: "​Welcome to the WVHS \a Compu";
+    content: "​Welcome to the WVHS \a Compu"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  74.6192893401%, 75.295108291% {
+    content: "​Welcome to the WVHS \a Comp";
+    content: "​Welcome to the WVHS \a Comp"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  75.296108291%, 75.971927242% {
+    content: "​Welcome to the WVHS \a Com";
+    content: "​Welcome to the WVHS \a Com"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  75.972927242%, 76.6487461929% {
+    content: "​Welcome to the WVHS \a Co";
+    content: "​Welcome to the WVHS \a Co"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  76.6497461929%, 77.3255651438% {
+    content: "​Welcome to the WVHS \a C";
+    content: "​Welcome to the WVHS \a C"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  77.3265651438%, 78.0023840948% {
+    content: "​Welcome to the WVHS \a";
+    content: "​Welcome to the WVHS \a"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  78.0033840948%, 78.6792030457% {
+    content: "​Welcome to the WVHS ";
+    content: "​Welcome to the WVHS "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  78.6802030457%, 79.3560219966% {
+    content: "​Welcome to the WVHS";
+    content: "​Welcome to the WVHS"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  79.3570219966%, 80.0328409475% {
+    content: "​Welcome to the WVH";
+    content: "​Welcome to the WVH"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  80.0338409475%, 80.7096598985% {
+    content: "​Welcome to the WV";
+    content: "​Welcome to the WV"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  80.7106598985%, 81.3864788494% {
+    content: "​Welcome to the W";
+    content: "​Welcome to the W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  81.3874788494%, 82.0632978003% {
+    content: "​Welcome to the ";
+    content: "​Welcome to the "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  82.0642978003%, 82.7401167513% {
+    content: "​Welcome to the";
+    content: "​Welcome to the"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  82.7411167513%, 83.4169357022% {
+    content: "​Welcome to th";
+    content: "​Welcome to th"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  83.4179357022%, 84.0937546531% {
+    content: "​Welcome to t";
+    content: "​Welcome to t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  84.0947546531%, 84.7705736041% {
+    content: "​Welcome to ";
+    content: "​Welcome to "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  84.7715736041%, 85.447392555% {
+    content: "​Welcome to";
+    content: "​Welcome to"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  85.448392555%, 86.1242115059% {
+    content: "​Welcome t";
+    content: "​Welcome t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  86.1252115059%, 86.8010304569% {
+    content: "​Welcome ";
+    content: "​Welcome "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  86.8020304569%, 87.4778494078% {
+    content: "​Welcome";
+    content: "​Welcome"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  87.4788494078%, 88.1546683587% {
+    content: "​Welcom";
+    content: "​Welcom"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  88.1556683587%, 88.8314873096% {
+    content: "​Welco";
+    content: "​Welco"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  88.8324873096%, 89.5083062606% {
+    content: "​Welc";
+    content: "​Welc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  89.5093062606%, 90.1851252115% {
+    content: "​Wel";
+    content: "​Wel"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  90.1861252115%, 90.8619441624% {
+    content: "​We";
+    content: "​We"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  90.8629441624%, 91.5387631134% {
+    content: "​W";
+    content: "​W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  91.5397631134%, 100% {
+    content: "​";
+    content: "​"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
 }
 @keyframes typed-0 {
-  0%, 0.8581065292% {
+  0%, 0.8450236887% {
     content: "​W";
-    content: "​W"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  0.8591065292%, 1.7172130584% {
+  0.8460236887%, 1.6910473773% {
     content: "​We";
-    content: "​We"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​We"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  1.7182130584%, 2.5763195876% {
+  1.6920473773%, 2.537071066% {
     content: "​Wel";
-    content: "​Wel"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Wel"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  2.5773195876%, 3.4354261168% {
+  2.538071066%, 3.3830947547% {
     content: "​Welc";
-    content: "​Welc"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  3.4364261168%, 4.294532646% {
+  3.3840947547%, 4.2291184433% {
     content: "​Welco";
-    content: "​Welco"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welco"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  4.295532646%, 5.1536391753% {
+  4.2301184433%, 5.075142132% {
     content: "​Welcom";
-    content: "​Welcom"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcom"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  5.1546391753%, 6.0127457045% {
+  5.076142132%, 5.9211658206% {
     content: "​Welcome";
-    content: "​Welcome"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  6.0137457045%, 6.8718522337% {
+  5.9221658206%, 6.7671895093% {
     content: "​Welcome ";
-    content: "​Welcome "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  6.8728522337%, 7.7309587629% {
+  6.7681895093%, 7.613213198% {
     content: "​Welcome t";
-    content: "​Welcome t"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  7.7319587629%, 8.5900652921% {
+  7.614213198%, 8.4592368866% {
     content: "​Welcome to";
-    content: "​Welcome to"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  8.5910652921%, 9.4491718213% {
+  8.4602368866%, 9.3052605753% {
     content: "​Welcome to ";
-    content: "​Welcome to "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  9.4501718213%, 10.3082783505% {
+  9.3062605753%, 10.151284264% {
     content: "​Welcome to t";
-    content: "​Welcome to t"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  10.3092783505%, 11.1673848797% {
+  10.152284264%, 10.9973079526% {
     content: "​Welcome to th";
-    content: "​Welcome to th"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to th"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  11.1683848797%, 12.0264914089% {
+  10.9983079526%, 11.8433316413% {
     content: "​Welcome to the";
-    content: "​Welcome to the"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  12.0274914089%, 12.8855979381% {
+  11.8443316413%, 12.6893553299% {
     content: "​Welcome to the ";
-    content: "​Welcome to the "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  12.8865979381%, 13.7447044674% {
+  12.6903553299%, 13.5353790186% {
     content: "​Welcome to the W";
-    content: "​Welcome to the W"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  13.7457044674%, 14.6038109966% {
+  13.5363790186%, 14.3814027073% {
     content: "​Welcome to the WV";
-    content: "​Welcome to the WV"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WV"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  14.6048109966%, 15.4629175258% {
+  14.3824027073%, 15.2274263959% {
     content: "​Welcome to the WVH";
-    content: "​Welcome to the WVH"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WVH"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  15.4639175258%, 16.322024055% {
+  15.2284263959%, 16.0734500846% {
     content: "​Welcome to the WVHS";
-    content: "​Welcome to the WVHS"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WVHS"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  16.323024055%, 17.1811305842% {
+  16.0744500846%, 16.9194737733% {
     content: "​Welcome to the WVHS ";
-    content: "​Welcome to the WVHS "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WVHS "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  17.1821305842%, 18.0402371134% {
-    content: "​Welcome to the WVHS C";
-    content: "​Welcome to the WVHS C"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  16.9204737733%, 17.7654974619% {
+    content: "​Welcome to the WVHS \a";
+    content: "​Welcome to the WVHS \a"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  18.0412371134%, 18.8993436426% {
-    content: "​Welcome to the WVHS Co";
-    content: "​Welcome to the WVHS Co"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  17.7664974619%, 18.6115211506% {
+    content: "​Welcome to the WVHS \a C";
+    content: "​Welcome to the WVHS \a C"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  18.9003436426%, 19.7584501718% {
-    content: "​Welcome to the WVHS Com";
-    content: "​Welcome to the WVHS Com"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  18.6125211506%, 19.4575448393% {
+    content: "​Welcome to the WVHS \a Co";
+    content: "​Welcome to the WVHS \a Co"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  19.7594501718%, 20.617556701% {
-    content: "​Welcome to the WVHS Comp";
-    content: "​Welcome to the WVHS Comp"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  19.4585448393%, 20.3035685279% {
+    content: "​Welcome to the WVHS \a Com";
+    content: "​Welcome to the WVHS \a Com"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  20.618556701%, 21.4766632302% {
-    content: "​Welcome to the WVHS Compu";
-    content: "​Welcome to the WVHS Compu"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  20.3045685279%, 21.1495922166% {
+    content: "​Welcome to the WVHS \a Comp";
+    content: "​Welcome to the WVHS \a Comp"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  21.4776632302%, 22.3357697595% {
-    content: "​Welcome to the WVHS Comput";
-    content: "​Welcome to the WVHS Comput"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  21.1505922166%, 21.9956159052% {
+    content: "​Welcome to the WVHS \a Compu";
+    content: "​Welcome to the WVHS \a Compu"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  22.3367697595%, 23.1948762887% {
-    content: "​Welcome to the WVHS Compute";
-    content: "​Welcome to the WVHS Compute"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  21.9966159052%, 22.8416395939% {
+    content: "​Welcome to the WVHS \a Comput";
+    content: "​Welcome to the WVHS \a Comput"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  23.1958762887%, 24.0539828179% {
-    content: "​Welcome to the WVHS Computer";
-    content: "​Welcome to the WVHS Computer"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  22.8426395939%, 23.6876632826% {
+    content: "​Welcome to the WVHS \a Compute";
+    content: "​Welcome to the WVHS \a Compute"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  24.0549828179%, 24.9130893471% {
-    content: "​Welcome to the WVHS Computer ";
-    content: "​Welcome to the WVHS Computer "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  23.6886632826%, 24.5336869712% {
+    content: "​Welcome to the WVHS \a Computer";
+    content: "​Welcome to the WVHS \a Computer"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  24.9140893471%, 25.7721958763% {
-    content: "​Welcome to the WVHS Computer S";
-    content: "​Welcome to the WVHS Computer S"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  24.5346869712%, 25.3797106599% {
+    content: "​Welcome to the WVHS \a Computer ";
+    content: "​Welcome to the WVHS \a Computer "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  25.7731958763%, 26.6313024055% {
-    content: "​Welcome to the WVHS Computer Sc";
-    content: "​Welcome to the WVHS Computer Sc"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  25.3807106599%, 26.2257343486% {
+    content: "​Welcome to the WVHS \a Computer S";
+    content: "​Welcome to the WVHS \a Computer S"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  26.6323024055%, 27.4904089347% {
-    content: "​Welcome to the WVHS Computer Sci";
-    content: "​Welcome to the WVHS Computer Sci"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  26.2267343486%, 27.0717580372% {
+    content: "​Welcome to the WVHS \a Computer Sc";
+    content: "​Welcome to the WVHS \a Computer Sc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  27.4914089347%, 28.3495154639% {
-    content: "​Welcome to the WVHS Computer Scie";
-    content: "​Welcome to the WVHS Computer Scie"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  27.0727580372%, 27.9177817259% {
+    content: "​Welcome to the WVHS \a Computer Sci";
+    content: "​Welcome to the WVHS \a Computer Sci"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  28.3505154639%, 29.2086219931% {
-    content: "​Welcome to the WVHS Computer Scien";
-    content: "​Welcome to the WVHS Computer Scien"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  27.9187817259%, 28.7638054146% {
+    content: "​Welcome to the WVHS \a Computer Scie";
+    content: "​Welcome to the WVHS \a Computer Scie"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  29.2096219931%, 30.0677285223% {
-    content: "​Welcome to the WVHS Computer Scienc";
-    content: "​Welcome to the WVHS Computer Scienc"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  28.7648054146%, 29.6098291032% {
+    content: "​Welcome to the WVHS \a Computer Scien";
+    content: "​Welcome to the WVHS \a Computer Scien"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  30.0687285223%, 30.9268350515% {
-    content: "​Welcome to the WVHS Computer Science";
-    content: "​Welcome to the WVHS Computer Science"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  29.6108291032%, 30.4558527919% {
+    content: "​Welcome to the WVHS \a Computer Scienc";
+    content: "​Welcome to the WVHS \a Computer Scienc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  30.9278350515%, 31.7859415808% {
-    content: "​Welcome to the WVHS Computer Science ";
-    content: "​Welcome to the WVHS Computer Science "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  30.4568527919%, 31.3018764805% {
+    content: "​Welcome to the WVHS \a Computer Science";
+    content: "​Welcome to the WVHS \a Computer Science"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  31.7869415808%, 32.64504811% {
-    content: "​Welcome to the WVHS Computer Science D";
-    content: "​Welcome to the WVHS Computer Science D"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  31.3028764805%, 32.1479001692% {
+    content: "​Welcome to the WVHS \a Computer Science ";
+    content: "​Welcome to the WVHS \a Computer Science "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  32.64604811%, 33.5041546392% {
-    content: "​Welcome to the WVHS Computer Science De";
-    content: "​Welcome to the WVHS Computer Science De"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  32.1489001692%, 32.9939238579% {
+    content: "​Welcome to the WVHS \a Computer Science D";
+    content: "​Welcome to the WVHS \a Computer Science D"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  33.5051546392%, 34.3632611684% {
-    content: "​Welcome to the WVHS Computer Science Dep";
-    content: "​Welcome to the WVHS Computer Science Dep"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  32.9949238579%, 33.8399475465% {
+    content: "​Welcome to the WVHS \a Computer Science De";
+    content: "​Welcome to the WVHS \a Computer Science De"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  34.3642611684%, 35.2223676976% {
-    content: "​Welcome to the WVHS Computer Science Depa";
-    content: "​Welcome to the WVHS Computer Science Depa"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  33.8409475465%, 34.6859712352% {
+    content: "​Welcome to the WVHS \a Computer Science Dep";
+    content: "​Welcome to the WVHS \a Computer Science Dep"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  35.2233676976%, 36.0814742268% {
-    content: "​Welcome to the WVHS Computer Science Depar";
-    content: "​Welcome to the WVHS Computer Science Depar"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  34.6869712352%, 35.5319949239% {
+    content: "​Welcome to the WVHS \a Computer Science Depa";
+    content: "​Welcome to the WVHS \a Computer Science Depa"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  36.0824742268%, 36.940580756% {
-    content: "​Welcome to the WVHS Computer Science Depart";
-    content: "​Welcome to the WVHS Computer Science Depart"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  35.5329949239%, 36.3780186125% {
+    content: "​Welcome to the WVHS \a Computer Science Depar";
+    content: "​Welcome to the WVHS \a Computer Science Depar"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  36.941580756%, 37.7996872852% {
-    content: "​Welcome to the WVHS Computer Science Departm";
-    content: "​Welcome to the WVHS Computer Science Departm"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  36.3790186125%, 37.2240423012% {
+    content: "​Welcome to the WVHS \a Computer Science Depart";
+    content: "​Welcome to the WVHS \a Computer Science Depart"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  37.8006872852%, 38.6587938144% {
-    content: "​Welcome to the WVHS Computer Science Departme";
-    content: "​Welcome to the WVHS Computer Science Departme"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  37.2250423012%, 38.0700659898% {
+    content: "​Welcome to the WVHS \a Computer Science Departm";
+    content: "​Welcome to the WVHS \a Computer Science Departm"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  38.6597938144%, 39.5179003436% {
-    content: "​Welcome to the WVHS Computer Science Departmen";
-    content: "​Welcome to the WVHS Computer Science Departmen"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  38.0710659898%, 38.9160896785% {
+    content: "​Welcome to the WVHS \a Computer Science Departme";
+    content: "​Welcome to the WVHS \a Computer Science Departme"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  39.5189003436%, 40.3770068729% {
-    content: "​Welcome to the WVHS Computer Science Department";
-    content: "​Welcome to the WVHS Computer Science Department"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  38.9170896785%, 39.7621133672% {
+    content: "​Welcome to the WVHS \a Computer Science Departmen";
+    content: "​Welcome to the WVHS \a Computer Science Departmen"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  40.3780068729%, 59.1055292096% {
-    content: "​Welcome to the WVHS Computer Science Department!";
-    content: "​Welcome to the WVHS Computer Science Department!"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  39.7631133672%, 40.6081370558% {
+    content: "​Welcome to the WVHS \a Computer Science Department";
+    content: "​Welcome to the WVHS \a Computer Science Department"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  59.1065292096%, 59.792814433% {
-    content: "​Welcome to the WVHS Computer Science Department";
-    content: "​Welcome to the WVHS Computer Science Department"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  40.6091370558%, 59.0514534687% {
+    content: "​Welcome to the WVHS \a Computer Science Department!";
+    content: "​Welcome to the WVHS \a Computer Science Department!"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  59.793814433%, 60.4800996564% {
-    content: "​Welcome to the WVHS Computer Science Departmen";
-    content: "​Welcome to the WVHS Computer Science Departmen"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  59.0524534687%, 59.7282724196% {
+    content: "​Welcome to the WVHS \a Computer Science Department";
+    content: "​Welcome to the WVHS \a Computer Science Department"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  60.4810996564%, 61.1673848797% {
-    content: "​Welcome to the WVHS Computer Science Departme";
-    content: "​Welcome to the WVHS Computer Science Departme"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  59.7292724196%, 60.4050913706% {
+    content: "​Welcome to the WVHS \a Computer Science Departmen";
+    content: "​Welcome to the WVHS \a Computer Science Departmen"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  61.1683848797%, 61.8546701031% {
-    content: "​Welcome to the WVHS Computer Science Departm";
-    content: "​Welcome to the WVHS Computer Science Departm"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  60.4060913706%, 61.0819103215% {
+    content: "​Welcome to the WVHS \a Computer Science Departme";
+    content: "​Welcome to the WVHS \a Computer Science Departme"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  61.8556701031%, 62.5419553265% {
-    content: "​Welcome to the WVHS Computer Science Depart";
-    content: "​Welcome to the WVHS Computer Science Depart"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  61.0829103215%, 61.7587292724% {
+    content: "​Welcome to the WVHS \a Computer Science Departm";
+    content: "​Welcome to the WVHS \a Computer Science Departm"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  62.5429553265%, 63.2292405498% {
-    content: "​Welcome to the WVHS Computer Science Depar";
-    content: "​Welcome to the WVHS Computer Science Depar"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  61.7597292724%, 62.4355482234% {
+    content: "​Welcome to the WVHS \a Computer Science Depart";
+    content: "​Welcome to the WVHS \a Computer Science Depart"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  63.2302405498%, 63.9165257732% {
-    content: "​Welcome to the WVHS Computer Science Depa";
-    content: "​Welcome to the WVHS Computer Science Depa"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  62.4365482234%, 63.1123671743% {
+    content: "​Welcome to the WVHS \a Computer Science Depar";
+    content: "​Welcome to the WVHS \a Computer Science Depar"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  63.9175257732%, 64.6038109966% {
-    content: "​Welcome to the WVHS Computer Science Dep";
-    content: "​Welcome to the WVHS Computer Science Dep"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  63.1133671743%, 63.7891861252% {
+    content: "​Welcome to the WVHS \a Computer Science Depa";
+    content: "​Welcome to the WVHS \a Computer Science Depa"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  64.6048109966%, 65.2910962199% {
-    content: "​Welcome to the WVHS Computer Science De";
-    content: "​Welcome to the WVHS Computer Science De"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  63.7901861252%, 64.4660050761% {
+    content: "​Welcome to the WVHS \a Computer Science Dep";
+    content: "​Welcome to the WVHS \a Computer Science Dep"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  65.2920962199%, 65.9783814433% {
-    content: "​Welcome to the WVHS Computer Science D";
-    content: "​Welcome to the WVHS Computer Science D"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  64.4670050761%, 65.1428240271% {
+    content: "​Welcome to the WVHS \a Computer Science De";
+    content: "​Welcome to the WVHS \a Computer Science De"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  65.9793814433%, 66.6656666667% {
-    content: "​Welcome to the WVHS Computer Science ";
-    content: "​Welcome to the WVHS Computer Science "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  65.1438240271%, 65.819642978% {
+    content: "​Welcome to the WVHS \a Computer Science D";
+    content: "​Welcome to the WVHS \a Computer Science D"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  66.6666666667%, 67.35295189% {
-    content: "​Welcome to the WVHS Computer Science";
-    content: "​Welcome to the WVHS Computer Science"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  65.820642978%, 66.4964619289% {
+    content: "​Welcome to the WVHS \a Computer Science ";
+    content: "​Welcome to the WVHS \a Computer Science "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  67.35395189%, 68.0402371134% {
-    content: "​Welcome to the WVHS Computer Scienc";
-    content: "​Welcome to the WVHS Computer Scienc"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  66.4974619289%, 67.1732808799% {
+    content: "​Welcome to the WVHS \a Computer Science";
+    content: "​Welcome to the WVHS \a Computer Science"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  68.0412371134%, 68.7275223368% {
-    content: "​Welcome to the WVHS Computer Scien";
-    content: "​Welcome to the WVHS Computer Scien"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  67.1742808799%, 67.8500998308% {
+    content: "​Welcome to the WVHS \a Computer Scienc";
+    content: "​Welcome to the WVHS \a Computer Scienc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  68.7285223368%, 69.4148075601% {
-    content: "​Welcome to the WVHS Computer Scie";
-    content: "​Welcome to the WVHS Computer Scie"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  67.8510998308%, 68.5269187817% {
+    content: "​Welcome to the WVHS \a Computer Scien";
+    content: "​Welcome to the WVHS \a Computer Scien"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  69.4158075601%, 70.1020927835% {
-    content: "​Welcome to the WVHS Computer Sci";
-    content: "​Welcome to the WVHS Computer Sci"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  68.5279187817%, 69.2037377327% {
+    content: "​Welcome to the WVHS \a Computer Scie";
+    content: "​Welcome to the WVHS \a Computer Scie"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  70.1030927835%, 70.7893780069% {
-    content: "​Welcome to the WVHS Computer Sc";
-    content: "​Welcome to the WVHS Computer Sc"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  69.2047377327%, 69.8805566836% {
+    content: "​Welcome to the WVHS \a Computer Sci";
+    content: "​Welcome to the WVHS \a Computer Sci"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  70.7903780069%, 71.4766632302% {
-    content: "​Welcome to the WVHS Computer S";
-    content: "​Welcome to the WVHS Computer S"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  69.8815566836%, 70.5573756345% {
+    content: "​Welcome to the WVHS \a Computer Sc";
+    content: "​Welcome to the WVHS \a Computer Sc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  71.4776632302%, 72.1639484536% {
-    content: "​Welcome to the WVHS Computer ";
-    content: "​Welcome to the WVHS Computer "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  70.5583756345%, 71.2341945854% {
+    content: "​Welcome to the WVHS \a Computer S";
+    content: "​Welcome to the WVHS \a Computer S"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  72.1649484536%, 72.851233677% {
-    content: "​Welcome to the WVHS Computer";
-    content: "​Welcome to the WVHS Computer"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  71.2351945854%, 71.9110135364% {
+    content: "​Welcome to the WVHS \a Computer ";
+    content: "​Welcome to the WVHS \a Computer "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  72.852233677%, 73.5385189003% {
-    content: "​Welcome to the WVHS Compute";
-    content: "​Welcome to the WVHS Compute"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  71.9120135364%, 72.5878324873% {
+    content: "​Welcome to the WVHS \a Computer";
+    content: "​Welcome to the WVHS \a Computer"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  73.5395189003%, 74.2258041237% {
-    content: "​Welcome to the WVHS Comput";
-    content: "​Welcome to the WVHS Comput"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  72.5888324873%, 73.2646514382% {
+    content: "​Welcome to the WVHS \a Compute";
+    content: "​Welcome to the WVHS \a Compute"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  74.2268041237%, 74.9130893471% {
-    content: "​Welcome to the WVHS Compu";
-    content: "​Welcome to the WVHS Compu"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  73.2656514382%, 73.9414703892% {
+    content: "​Welcome to the WVHS \a Comput";
+    content: "​Welcome to the WVHS \a Comput"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  74.9140893471%, 75.6003745704% {
-    content: "​Welcome to the WVHS Comp";
-    content: "​Welcome to the WVHS Comp"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  73.9424703892%, 74.6182893401% {
+    content: "​Welcome to the WVHS \a Compu";
+    content: "​Welcome to the WVHS \a Compu"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  75.6013745704%, 76.2876597938% {
-    content: "​Welcome to the WVHS Com";
-    content: "​Welcome to the WVHS Com"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  74.6192893401%, 75.295108291% {
+    content: "​Welcome to the WVHS \a Comp";
+    content: "​Welcome to the WVHS \a Comp"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  76.2886597938%, 76.9749450172% {
-    content: "​Welcome to the WVHS Co";
-    content: "​Welcome to the WVHS Co"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  75.296108291%, 75.971927242% {
+    content: "​Welcome to the WVHS \a Com";
+    content: "​Welcome to the WVHS \a Com"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  76.9759450172%, 77.6622302405% {
-    content: "​Welcome to the WVHS C";
-    content: "​Welcome to the WVHS C"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+  75.972927242%, 76.6487461929% {
+    content: "​Welcome to the WVHS \a Co";
+    content: "​Welcome to the WVHS \a Co"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  77.6632302405%, 78.3495154639% {
+  76.6497461929%, 77.3255651438% {
+    content: "​Welcome to the WVHS \a C";
+    content: "​Welcome to the WVHS \a C"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  77.3265651438%, 78.0023840948% {
+    content: "​Welcome to the WVHS \a";
+    content: "​Welcome to the WVHS \a"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+  78.0033840948%, 78.6792030457% {
     content: "​Welcome to the WVHS ";
-    content: "​Welcome to the WVHS "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WVHS "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  78.3505154639%, 79.0368006873% {
+  78.6802030457%, 79.3560219966% {
     content: "​Welcome to the WVHS";
-    content: "​Welcome to the WVHS"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WVHS"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  79.0378006873%, 79.7240859107% {
+  79.3570219966%, 80.0328409475% {
     content: "​Welcome to the WVH";
-    content: "​Welcome to the WVH"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WVH"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  79.7250859107%, 80.411371134% {
+  80.0338409475%, 80.7096598985% {
     content: "​Welcome to the WV";
-    content: "​Welcome to the WV"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the WV"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  80.412371134%, 81.0986563574% {
+  80.7106598985%, 81.3864788494% {
     content: "​Welcome to the W";
-    content: "​Welcome to the W"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  81.0996563574%, 81.7859415808% {
+  81.3874788494%, 82.0632978003% {
     content: "​Welcome to the ";
-    content: "​Welcome to the "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  81.7869415808%, 82.4732268041% {
+  82.0642978003%, 82.7401167513% {
     content: "​Welcome to the";
-    content: "​Welcome to the"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to the"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  82.4742268041%, 83.1605120275% {
+  82.7411167513%, 83.4169357022% {
     content: "​Welcome to th";
-    content: "​Welcome to th"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to th"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  83.1615120275%, 83.8477972509% {
+  83.4179357022%, 84.0937546531% {
     content: "​Welcome to t";
-    content: "​Welcome to t"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  83.8487972509%, 84.5350824742% {
+  84.0947546531%, 84.7705736041% {
     content: "​Welcome to ";
-    content: "​Welcome to "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  84.5360824742%, 85.2223676976% {
+  84.7715736041%, 85.447392555% {
     content: "​Welcome to";
-    content: "​Welcome to"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome to"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  85.2233676976%, 85.909652921% {
+  85.448392555%, 86.1242115059% {
     content: "​Welcome t";
-    content: "​Welcome t"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome t"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  85.910652921%, 86.5969381443% {
+  86.1252115059%, 86.8010304569% {
     content: "​Welcome ";
-    content: "​Welcome "/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome "/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  86.5979381443%, 87.2842233677% {
+  86.8020304569%, 87.4778494078% {
     content: "​Welcome";
-    content: "​Welcome"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcome"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  87.2852233677%, 87.9715085911% {
+  87.4788494078%, 88.1546683587% {
     content: "​Welcom";
-    content: "​Welcom"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welcom"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  87.9725085911%, 88.6587938144% {
+  88.1556683587%, 88.8314873096% {
     content: "​Welco";
-    content: "​Welco"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welco"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  88.6597938144%, 89.3460790378% {
+  88.8324873096%, 89.5083062606% {
     content: "​Welc";
-    content: "​Welc"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Welc"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  89.3470790378%, 90.0333642612% {
+  89.5093062606%, 90.1851252115% {
     content: "​Wel";
-    content: "​Wel"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​Wel"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  90.0343642612%, 90.7206494845% {
+  90.1861252115%, 90.8619441624% {
     content: "​We";
-    content: "​We"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​We"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  90.7216494845%, 91.4079347079% {
+  90.8629441624%, 91.5387631134% {
     content: "​W";
-    content: "​W"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​W"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
   }
-  91.4089347079%, 100% {
+  91.5397631134%, 100% {
     content: "​";
-    content: "​"/"Welcome to the WVHS Computer Science Department!";
-    alt: "Welcome to the WVHS Computer Science Department!";
+    content: "​"/"Welcome to the WVHS \a Computer Science Department!";
+    alt: "Welcome to the WVHS \a Computer Science Department!";
+  }
+}
+@-webkit-keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
   }
 }
 @keyframes typed-0-caret {
