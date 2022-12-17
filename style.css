@@ -59,6 +59,8 @@ a:hover{
 	height: 500px;
 }
 
+
+
 #learnmore{
 	text-align: center;
 	color: white;
@@ -70,7 +72,7 @@ a:hover{
 	}
 }
 .laptopsvg{
-	margin-top: 10vw;
+	margin-top: 9vw;
 	margin-left: 10vw;
 	width: 50%;
 	height: auto;
@@ -78,3 +80,63 @@ a:hover{
 	
 	
 }
+
+
+#card1{
+
+	width: 50;
+	height: 30em;
+	margin-top: 40px;
+	padding-left: 100%;
+	
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background: #5d81ac;
+	box-shadow:  -20px 20px 60px #4f6e92,
+             20px -20px 60px #6b94c6;
+}
+
+.cardtext{
+	color: white;
+}
+
+
+button {
+	/* Variables */
+   --button_radius: 0.75em;
+   --button_color: #e8e8e8;
+   --button_outline_color: #000000;
+   font-size: 17px;
+   font-weight: bold;
+   border: none;
+   border-radius: var(--button_radius) !important;
+   background: var(--button_outline_color);
+  }
+  
+  .button_top {
+   display: block;
+   box-sizing: border-box;
+   border: 2px solid var(--button_outline_color);
+   border-radius: var(--button_radius);
+   padding: 0.75em 1.5em;
+   background: var(--button_color);
+   color: var(--button_outline_color);
+   transform: translateY(-0.2em);
+   transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+	/* Pull the button upwards when hovered */
+   transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+	/* Push the button downwards when pressed */
+   transform: translateY(0);
+  }
+
+#btnCont{
+	margin-top: 200px;
+}
+
+
