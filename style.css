@@ -2,7 +2,9 @@
 /* To use fonts type the following
  font-family: 'Inter', sans-serif; 
  You may also specify the weight */
-
+*{
+	font-family: "Inter", sans-serif !important;
+}
 
  body{
 	background-color: #5D81AC !important;
@@ -49,3 +51,30 @@ a:hover{
 	
 }
 
+#typedCol{
+	height: 20rem !important;
+}
+
+#container{
+	height: 500px;
+}
+
+#learnmore{
+	text-align: center;
+	color: white;
+	font-weight: 700 !important;
+}
+@media screen and (max-width:400px){
+	.laptopsvg{
+		visibility: hidden;
+	}
+}
+.laptopsvg{
+	margin-top: 10vw;
+	margin-left: 10vw;
+	width: 50%;
+	height: auto;
+	filter: invert(99%) sepia(0%) saturate(347%) hue-rotate(302deg) brightness(112%) contrast(96%);
+	
+	
+}
