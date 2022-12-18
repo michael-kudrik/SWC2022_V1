@@ -138,5 +138,18 @@ button {
 #btnCont{
 	margin-top: 200px;
 }
-
-
+::-webkit-scrollbar{
+	width: 2em;
+}
+::-webkit-scrollbar-track{
+	margin-block: 6.5em;
+	background: #5d81ac ;
+	border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb{
+	background: #F8F9FA;
+	border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #4c6b92;
+}
