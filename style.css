@@ -1,155 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* To use fonts type the following
  font-family: 'Inter', sans-serif; 
  You may also specify the weight */
-*{
-	font-family: "Inter", sans-serif !important;
+
+/* For Index Page / General Items */
+
+* {
+  font-family: "Inter", sans-serif !important;
 }
 
- body{
-	background-color: #5D81AC !important;
-	
- }
-.navbar-brand{
-	margin-top: 16px;
-	margin-left: 2vw;
-	font-family: 'Inter', sans-serif;
-    font-size: 30px !important;
-    font-weight: 700;
-	color: #5D81AC !important;
+body {
+  background-color: #5d81ac !important;
+}
+.navbar-brand {
+  margin-top: 16px;
+  margin-left: 2vw;
+  font-family: "Inter", sans-serif;
+  font-size: 30px !important;
+  font-weight: 700;
+  color: #5d81ac !important;
 }
 
-.wvlogostacked{
-	width: 75px;
-	height: 75px;
+.wvlogostacked {
+  width: 75px;
+  height: 75px;
 }
 
-p{
-	font-family: 'Inter', sans-serif;
-	color: white;
+p {
+  font-family: "Inter", sans-serif;
+  color: white;
 }
-a{
-	font-family: 'Inter',sans-serif;
-	color: white !important;
-	background: #5D81AC !important;
-	border-radius: 50px;
-	margin: 10;
-	font-size: 20px !important;
-}
-
-a:hover{
-	box-shadow:  20px 20px 60px #5779a2,
-             -20px -20px 60px #6389b6;
+a {
+  font-family: "Inter", sans-serif;
+  color: white !important;
+  background: #5d81ac !important;
+  border-radius: 50px;
+  margin: 10px;
+  font-size: 20px !important;
 }
 
-.homeWelcome{
-	width: 100%;
-	height: 50vw;
-	margin-top: 2vw;
-	padding-left: 12px;
-	margin-left: 16px;
-	
+h1 {
+  color: white;
 }
 
-#typedCol{
-	height: 20rem !important;
+a:hover {
+  box-shadow: 20px 20px 60px #5779a2, -20px -20px 60px #6389b6;
 }
 
-#container{
-	height: 500px;
+.homeWelcome {
+  width: 100%;
+  height: 50vw;
+  margin-top: 2vw;
+  padding-left: 12px;
+  margin-left: 16px;
 }
 
-
-
-#learnmore{
-	text-align: center;
-	color: white;
-	font-weight: 700 !important;
-}
-@media screen and (max-width:400px){
-	.laptopsvg{
-		visibility: hidden;
-	}
-}
-.laptopsvg{
-	margin-top: 9vw;
-	margin-left: 10vw;
-	width: 50%;
-	height: auto;
-	filter: invert(99%) sepia(0%) saturate(347%) hue-rotate(302deg) brightness(112%) contrast(96%);
-	
-	
+#typedCol {
+  height: 20rem !important;
 }
 
-
-#card1{
-
-	width: 50;
-	height: 30em;
-	margin-top: 40px;
-	padding-left: 100%;
-	
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	background: #5d81ac;
-	box-shadow:  -20px 20px 60px #4f6e92,
-             20px -20px 60px #6b94c6;
+#container {
+  height: 500px;
 }
 
-.cardtext{
-	color: white;
+#learnmore {
+  text-align: center;
+  color: white;
+  font-weight: 700 !important;
+}
+@media screen and (max-width: 400px) {
+  .laptopsvg {
+    visibility: hidden;
+  }
+}
+.laptopsvg {
+  margin-top: 9vw;
+  margin-left: 10vw;
+  width: 50%;
+  height: auto;
+  filter: invert(99%) sepia(0%) saturate(347%) hue-rotate(302deg)
+    brightness(112%) contrast(96%);
 }
 
+.footer {
+  margin-top: 200px;
+}
+
+#card1 {
+  width: 50;
+  height: 30em;
+  margin-top: 40px;
+  padding-left: 100%;
+
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #5d81ac;
+  box-shadow: -20px 20px 60px #4f6e92, 20px -20px 60px #6b94c6;
+}
 
 button {
-	/* Variables */
-   --button_radius: 0.75em;
-   --button_color: #e8e8e8;
-   --button_outline_color: #000000;
-   font-size: 17px;
-   font-weight: bold;
-   border: none;
-   border-radius: var(--button_radius) !important;
-   background: var(--button_outline_color);
-  }
-  
-  .button_top {
-   display: block;
-   box-sizing: border-box;
-   border: 2px solid var(--button_outline_color);
-   border-radius: var(--button_radius);
-   padding: 0.75em 1.5em;
-   background: var(--button_color);
-   color: var(--button_outline_color);
-   transform: translateY(-0.2em);
-   transition: transform 0.1s ease;
-  }
-  
-  button:hover .button_top {
-	/* Pull the button upwards when hovered */
-   transform: translateY(-0.33em);
-  }
-  
-  button:active .button_top {
-	/* Push the button downwards when pressed */
-   transform: translateY(0);
-  }
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius) !important;
+  background: var(--button_outline_color);
+}
 
-#btnCont{
-	margin-top: 200px;
+.button_top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
 }
-::-webkit-scrollbar{
-	width: 2em;
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
 }
-::-webkit-scrollbar-track{
-	margin-block: 6.5em;
-	background: #5d81ac ;
-	border-radius: 100vw;
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
 }
-::-webkit-scrollbar-thumb{
-	background: #F8F9FA;
-	border-radius: 100vw;
+
+#btnCont {
+  margin-top: 200px;
 }
-::-webkit-scrollbar-thumb:hover{
-	background: #4c6b92;
+::-webkit-scrollbar {
+  width: 1em;
+}
+::-webkit-scrollbar-track {
+  margin-block: 6.5em;
+  background: #5d81ac;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb {
+  background: #f8f9fa;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4c6b92;
+}
+
+/* Courses Page */
+
+#Courses > h1 {
+  margin-top: 15vw;
+  font-size: 7em;
+}
+
+#courses1 {
+  margin-top: 30px;
+}
+
+.card-text {
+  color: #000000 !important;
 }
